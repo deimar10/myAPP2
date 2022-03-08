@@ -1,0 +1,99 @@
+body{
+    background-color: rgb(143, 143, 143);
+    font-family: sans-serif;
+}
+
+.form {
+    background-color: #282c34;
+    border: 1px solid #282c34;
+    border-radius: 9px;
+    margin: auto;
+    width: 50%;
+    width: 600px;
+    padding: 25px;
+    margin-top: 50px;
+}
+
+.error {
+    color: rgb(219, 77, 77);
+}
+
+h1 {
+    color: aquamarine;
+    font-size: 50px;
+    text-align: center;
+}
+
+h3 {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+
+label {
+    font-weight: bold;
+    color: rgb(233, 233, 233);
+    padding: 15px;
+}
+
+input {
+    padding: 10px;
+    margin-top: 15px;
+    background-color: #282c34;
+    border: 3px solid aquamarine;
+    border-radius: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.button {
+    color: aquamarine;
+    background-color: #282c34;
+    width: 120px;
+    height: 40px;
+    border: 3px solid aquamarine;
+    border-radius: 9px;
+    font-weight: bold;
+    margin-left: 135px;
+    margin-top: 20px;
+}
+
+.nav{
+    padding: 15px;
+    background-color: #3a3a3a;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+.stats {
+    margin-left: 20px;
+    background-color: #282c34fb;
+    width: 400px;
+    height: 200px;
+}
+.stats h3 {
+    padding: 12px;
+}
+
+.sign-out {
+    color: aquamarine;
+    background-color: #282c3400;
+    width: 90px;
+    height: 30px;
+    border: 3px solid aquamarine;
+    border-radius: 9px;
+    font-weight: bold;
+    float: right;
+}
+
+.add-new {
+    color: aquamarine;
+    background-color: #282c3400;
+    width: 100px;
+    height: 30px;
+    border: 3px solid aquamarine;
+    border-radius: 9px;
+    font-weight: bold;
+    float: left;
+}
