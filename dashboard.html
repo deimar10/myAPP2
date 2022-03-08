@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>App</title>
+</head>
+<body>
+
+<div class="app">
+    <div class="login-form"><div>
+        <div class="logged-in">
+            <div class="nav">
+                User is successfully logged in
+                <button class="sign-out" type="submit" onSubmit={logOut}>SIGN OUT</button>
+                <button class="add-new" type="submit">+ ADD NEW</button>
+            </div>
+            <div class="stats">
+                <h3>Logged working hours</h3>
+
+            </div>
+
+            <div class="stats">
+                <h3>Overview</h3>
+
+            </div>
+
+            <div class="stats">
+                <h3>Categories</h3>
+
+            </div>
+
+            <div class="stats">
+                <h3>Used technologies</h3>
+
+            </div>
+        </div>
+    </div>
+    </div>
+</div>
+
+<div>
+    <table id="table_id" class="display">
+        <thead>
+        <tr>
+            <th>Column 1</th>
+            <th>Column 2</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>Row 1 Data 1</td>
+            <td>Row 1 Data 2</td>
+        </tr>
+        <tr>
+            <td>Row 2 Data 1</td>
+            <td>Row 2 Data 2</td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.js"></script>
+</body>
+</html>

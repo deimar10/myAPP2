@@ -14,7 +14,11 @@ body{
     margin-top: 50px;
 }
 
-.error {
+#error {
+    color: rgb(219, 77, 77);
+}
+
+#error2 {
     color: rgb(219, 77, 77);
 }
 
