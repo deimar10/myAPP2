@@ -10,7 +10,7 @@ function validate(){
 
     if ( username == "user1" && password == "pass1"){
         alert ("Login successfully");
-        window.location = "Dashboard.html"; // Redirecting to other page.
+        window.location = "dashboard.html"; // Redirecting to other page.
         return false;
     }
     if(username == "") {
